@@ -1,84 +1,291 @@
-/* CSS Document */
-body{padding:0px; margin:0px; background:#edede5; color:#848484; font:10px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
-ul{list-style-type:none;}
+body {
+	margin-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #525252;
+}
+td, textarea, input, select {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.tableDetail {
+	font-size: 10px;
+	font-family: Verdana;
+	color: #49394E;
+}
+a:link {
+	color: #FFFFFF;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
 
-.clear {clear: both; margin: 0px; height:0}
+}
+a:hover {
+	color: #FFF268;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: underline;
+}
+a:visited {
+	color: #FFFFFF;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
 
-p a{font:10px/14px Tahoma, sans-serif; color:#000; text-decoration:underline;}
-p a:hover{ color:#000; text-decoration:none;}
+}
 
-p a.link2{font:10px/14px Tahoma, sans-serif; color:#848484; text-decoration:underline;}
-p a.link2:hover{ color:#848484; text-decoration:none;}
+.text1 {
+	font-family: tahoma;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.text2 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: 8A8EC1;
+}
+.text3 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: 8A8EC1;
+}
+.text4 {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: BF302C;
+}
+.text5 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: C6C6C6;
+}
+.text6 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.text7 {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+.text8 {
 
-p a.link3{font:10px/14px Tahoma, sans-serif; color:#1ea7c6; text-decoration:underline;}
-p a.link3:hover{ color:#1ea7c6; text-decoration:none;}
-
-.headline{font:11px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#ef8e00; font-weight:bold}
-
-#container{width:775px; margin:0 auto; background:url(../images/b_header.jpg) 0 0 no-repeat}
-
-/* HEADER */
-
-#headerPan{width:775px; height:402px; position:relative; margin:0 auto;}
-
-#headerPan img#logo{position:absolute; top:124px; left:407px}
-
-#headerPan ul.menu{position:absolute; top:0px; left:86px; width:680px}
-#headerPan ul.menu li{float:left; height:31px; margin-right:23px}
-#headerPan ul.menu li a{ height:31px;  display:block; text-indent:-20000px; }
-#headerPan ul.menu li a:hover{height:31px; }
-
-#headerPan ul.menu li.b01 a{ width:92px;  background:url(../images/btn_1.gif) 0 12px no-repeat; }
-#headerPan ul.menu li.b01 a:hover{ width:92px;  background:url(../images/btn_1_over.gif) 0 12px no-repeat;}
-
-#headerPan ul.menu li.b02 a{ width:92px;  background:url(../images/btn_2.gif) 0 12px no-repeat; }
-#headerPan ul.menu li.b02 a:hover{ width:92px;  background:url(../images/btn_2_over.gif) 0 12px no-repeat;}
-
-#headerPan ul.menu li.b03 a{ width:107px;  background:url(../images/btn_3.gif) 0 12px no-repeat; }
-#headerPan ul.menu li.b03 a:hover{ width:107px;  background:url(../images/btn_3_over.gif) 0 12px no-repeat;}
-
-#headerPan ul.menu li.b04 a{ width:76px;  background:url(../images/btn_4.gif) 0 12px no-repeat; }
-#headerPan ul.menu li.b04 a:hover{ width:76px;  background:url(../images/btn_4_over.gif) 0 12px no-repeat;}
-
-#headerPan ul.menu li.b05 {margin-right:0}
-#headerPan ul.menu li.b05 a{ width:86px;  background:url(../images/btn_5.gif) 0 12px no-repeat; }
-#headerPan ul.menu li.b05 a:hover{ width:86px;  background:url(../images/btn_5_over.gif) 0 12px no-repeat;}
-
-#headerPan ul.menu li.linem{width:1px; background:url(../images/spacer_m.gif) 0 0 no-repeat}
-
-
-/* CONTENT */
-
-#contentPan{width:592px; position:relative; margin:0 0 0 98px; background:#fff}
-
-#c1{width:165px; margin: 28px 38px 0 22px; float:left; display:inline}
-#c2{width:330px; margin: 0 0 0 0; float:left;}
-
-#news{margin-bottom:35px}
-#news h2{height:18px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:20px}
-#news p{padding-left:23px; background:url(../images/file.jpg) 0 2px no-repeat; margin-bottom:20px}
-#news img.btn_readmore{margin-left:67px}
-
-#specials h2{height:18px; position:relative; background:url(../images/h_specials.gif) 0 0 no-repeat; margin-bottom:13px}
-#specials img{margin:0 0 15px 1px; border-right: #ef8e00 4px solid}
-
-#welcome{margin-bottom:20px}
-#welcome h2{height:59px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:14px}
-#welcome p{margin-bottom:10px}
-#welcome img.btn_readmore{margin-left:244px}
-
-#new h2{height:59px; position:relative; background:url(../images/h_new.gif) 0 0 no-repeat; margin-bottom:14px}
-#new img{float:left; margin-right:20px; border-bottom:#e5e5e5 10px solid}
-#new img#lastimg{margin-right:0}
-
-#new p{margin-bottom:10px}
-#new img.btn_readmore{margin-left:210px; border:none}
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: 94AEC5;
+}
+.text9 {
 
 
-/* FOOTER */
-#footerPan{width:592px; height:49px;  margin:0 0 0 98px; background:url(../images/b_footer.gif) 0 0 no-repeat}
-#footerPan p{padding: 15px 0 0 0; font:10px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
-#footerPan p span{ font:10px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff;}
-#footerPan p a{ font:10px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; padding: 0 3px }
-#footerPan p a:hover{ font:10px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; text-decoration:underline;}
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: 4E4E4E;
+}
+.frame {
+	border: 1px solid #A6A6A6;
+}
+.designed_by {
+	font-family: Arial;
+	font-size: 8.5px;
+	font-weight: lighter;
+	color: #000000;
+}
+a.a:link {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.a:hover {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #B7CB2B;
+	text-decoration: none;
+}
+a.a:visited {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.b:link {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: 7C7C7C;
+	text-decoration: none;
+}
+a.b:hover {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #85B350;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: 7C7C7C;
+	text-decoration: none;
+}
+a.c:link {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.c:hover {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.c:visited {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.d:link {
+
+
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.d:hover {
+
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.d:visited {
+
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.e:link {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: 944F23;
+	text-decoration: underline;
+}
+a.e:hover {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4E4E4E;
+	text-decoration: underline;
+}
+a.e:visited {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: 944F23;
+	text-decoration: underline;
+}
+a.f:link {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: C5E622;
+	text-decoration: underline;
+}
+a.f:hover {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.f:visited {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: C5E622;
+	text-decoration: underline;
+}
+a.g:link {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+a.g:hover {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: underline;
+}
+a.g:visited {
+
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.inputstyle {
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #5F726F;
+	background-color: #E2EDEB;
+	border: 1px solid #333333;
+}
